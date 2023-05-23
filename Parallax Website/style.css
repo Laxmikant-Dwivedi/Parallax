@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#wrapper
+{
+    height: 100vh;
+    overflow-x: hidden ;
+    overflow-y: auto; 
+    perspective: 11px;
+}
+
+h1{
+    position: absolute;
+    font-size: 10rem;
+    color: rgba(234, 216, 17, 0.724);
+    letter-spacing: 4px;
+    text-shadow: 0px 0px 10px rgb(169, 45, 130);
+    
+}
+
+.container
+{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style:preserve-3d ;
+    z-index: -1;
+
+}
+
+.kailesh
+{
+    transform: translateZ(-40px) scale(5);
+}
+
+/* .{
+    transform: translateZ(-20px) scale(3);
+} */
+
+.kailesh
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+
+}
+
+section{
+    background-color: black;
+    color: white;
+    padding: 5rem 0;
+}
+
+.secheading
+{
+    font-size: 10rem;
+    padding: 0 10rem;
+}
+
+.text
+{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin:5rem 0 ;
+    justify-content: center;
+    align-items: center;
+} 
+
+.desc
+{
+    position: absolute;
+    background-color: rgb(177, 33, 78);
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 50%;
+    font-weight: 100;
+    transform: translateY(-20%) translateX(-20%);
+}
+
+
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.bg1
+{
+    background-image: url(111.jpg);
+}
+
+.bg2
+{
+    background-image: url(air.jpg);
+}
+
+.bg3
+{
+    background-image: url(navy.jpg);
+}
+
+.bg4
+{
+    background-image: url(black.jpeg);
+}
